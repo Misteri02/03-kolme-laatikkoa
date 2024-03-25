@@ -1,0 +1,112 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+}
+section{
+background-color: #BBDDEE;
+margin-bottom: 1rem;
+padding: 1rem;
+}
+.iso-q{
+    float: left;
+    font-size: 500%;
+    width: 5rem;
+    text-align: center;
+    padding: 1rem 1rem 0.7rem;
+    background-color: #568;
+    color: white;
+    border: solid white 1px;
+    border-width: 0rem 1rem 1rem 0rem;
+    margin: -1rem 2rem 2rem -1rem;
+}
+.mag{
+    float: left;
+    height: 7px;
+    height: 75px;
+    text-align: center;
+    background: white;
+    color: black;
+    border: solid black 1px;
+    border-width: 0 2px 2px 0;
+    padding: 0 10px 5px 0;
+    margin: -10px 25px 10px -10px;
+}
+.banner{
+    float: left;
+    width: 45%;
+    text-align: left;
+    font-size: 140%;
+    padding: 1em;
+    text-indent: 0.5em;
+    background: white;
+    color: black;
+    border: solid black 1px;
+    border-width: 1px 2px 2px 1px;
+    margin: -0.8em 2rem 0em -0.8em;
+
+}
+.banner-right{
+    float: right;
+    width: 25%;
+    text-align: left;
+    font-size: 140%;
+    font-weight: bold;
+    font-style: italic;
+    padding: 1em;
+    text-indent: 0.5em;
+    background: white;
+    color: black;
+    border: solid black 1px;
+    border-width: 2px 0px 2px 2px;
+    margin: 0.2em -12px 1.2em 0.5em;
+}
+.reuna{
+    border: black solid 2px;
+}
+img{
+    height: 75px; 
+    width: 100px;
+}
+h1, h2, h3, p, pre, ul{
+    margin-block-end: 1rem;
+}
+h1{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: #88AABB;
+    text-align: right;
+    padding: 0.8rem 2rem 1rem;
+    margin: -1rem -1rem 2rem -1rem;
+}
+h3{
+    font-size: 2.0rem;
+    font-weight: bold;
+    
+}
+p{
+    font-size: 1.6rem;
+}
+pre{
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    font-size: 1.6rem;
+    margin: 1rem 1rem 1rem 3rem;
+}
+li{
+    list-style-type: disc;
+}
+li::marker{
+    color: black;
+}
+a:link {
+  color: blue;
+  }
